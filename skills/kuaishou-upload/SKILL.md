@@ -55,14 +55,6 @@ description: 当 agent 需要通过已安装的 `sau` CLI 完成快手登录、c
 - 如果登录流程生成了本地二维码图片，不要只把图片路径告诉用户
 - 二维码图片本身就是给用户扫码的，优先直接把本地图片展示/发送给用户
 
-## 模板文件
-
-当你需要稳定的命令模板时，使用 `scripts/examples/` 下的文件：
-
-- `kuaishou_commands.ps1`
-- `kuaishou_commands.sh`
-- `kuaishou_cli_template.py`
-
 ## 参考文档
 
 - 运行前提：`references/runtime-requirements.md`
